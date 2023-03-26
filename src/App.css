@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@300&display=swap");
 html,
 body {
   margin: 0;
@@ -10,4 +11,5 @@ body {
   width: 100vw !important;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  background-color: black;
 }

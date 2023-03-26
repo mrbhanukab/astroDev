@@ -1,0 +1,42 @@
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 10rem;
+  height: 3rem;
+  margin: 0.3rem;
+  color: #d9d9da;
+  margin: 1rem;
+}
+
+.weather img {
+  height: 2.5rem;
+  margin: 0rem;
+  padding: 0rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem;
+  padding: 0rem;
+  margin-left: 0.5rem;
+}
+
+.info h6 {
+  font-family: "Raleway", sans-serif;
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 0.56rem;
+  margin-bottom: -0.1rem;
+}
+
+.info h3 {
+  margin: 0rem;
+  padding: 0rem;
+  margin-top: -0.2rem;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
