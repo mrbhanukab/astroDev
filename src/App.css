@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+.container {
+  height: 100vh !important;
+  width: 100vw !important;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
