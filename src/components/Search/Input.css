@@ -1,0 +1,56 @@
+.Search {
+  display: flex;
+  align-items: center !important;
+  align-content: center !important;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  padding: 0.5rem;
+  padding-right: 1rem;
+}
+
+.select {
+  display: flex;
+  border-right: 0.1rem rgba(255, 253, 253, 0.658) solid;
+  margin-right: 0.2rem;
+  padding-right: 0.5rem;
+}
+
+.sel {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(240, 248, 255, 0);
+  color: azure;
+  outline: none !important;
+  font-family: "Raleway", sans-serif;
+}
+.sel option {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(240, 248, 255, 0);
+  color: rgb(0, 0, 0);
+  outline: none !important;
+}
+
+.select img {
+  width: 1.5rem;
+  padding-right: 0.2rem;
+}
+
+.Search input {
+  width: 80%;
+  background-color: rgba(240, 248, 255, 0);
+  border: 0;
+  color: azure;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  margin-right: 0.5rem;
+}
+
+.Search input:focus {
+  outline: none !important;
+}
+
+.searchIcon {
+  width: 1.5rem;
+  margin: 0.rem;
+}

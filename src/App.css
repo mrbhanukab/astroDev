@@ -10,6 +10,12 @@ body {
   height: 100vh !important;
   width: 100vw !important;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  background-color: black;
+  grid-template-columns: 1fr 1fr;
+  background-color: #0C0000;
+}
+
+.img{
+  height: 100vh;
+  margin-left: 2rem;
+  object-fit: cover;
 }

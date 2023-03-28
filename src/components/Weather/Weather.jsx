@@ -14,6 +14,8 @@ function Weather() {
       setWeatherData(result.data);
     };
     fetchData();
+    document.querySelector("link[rel*='icon']").href =
+      weatherData.current?.condition?.icon;
   }, [City]);
 
   return (
